@@ -1,0 +1,36 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Matching</title>
+    <style>
+        /* CSS styles to center the form */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            margin: 0;
+        }
+        form {
+            text-align: center;
+            width: 300px; /* Adjust width as needed */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Regex Matching</h1>
+        <form action="/results" method="post">
+            <label for="test_string">Test String:</label><br>
+            <input type="text" id="test_string" name="test_string" required><br><br>
+            <label for="regex_pattern">Regex Pattern:</label><br>
+            <input type="text" id="regex_pattern" name="regex_pattern" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
